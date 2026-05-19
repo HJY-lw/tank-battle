@@ -1,0 +1,16 @@
+{
+  "name": "ai-agent-starter",
+  "version": "1.0.0",
+  "description": "AI Agent 入门学习项目",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "dev": "node --watch app/index.js"
+  },
+  "keywords": ["ai", "agent", "claude", "beginner"],
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.60.0",
+    "dotenv": "^17.2.0"
+  }
+}
